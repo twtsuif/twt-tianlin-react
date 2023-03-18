@@ -1,0 +1,96 @@
+@import '~antd/dist/antd.css';
+
+.ant-card-head-title{
+    font-size: large;
+    font-weight: bold;
+    color: #005187;
+}
+
+.ant-descriptions-title{
+    text-align: center;
+    font-size: x-large;
+    color: #005187;
+}
+
+.App{
+    background-color: #f5f8fa;
+}
+
+.link
+{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.link:hover
+{
+    text-decoration:underline;
+    transition: all 5s;
+}
+
+*p
+{
+    color: #344B77;
+}
+
+
+#root
+{
+    height: 100%;
+}
+
+*{
+    color:#344B77
+}
+.tju
+{
+    background-color: #344b77;
+    border-color: #344b77;
+}
+
+.tju>span
+{
+    color: white;
+}
+
+.lab>div
+{
+    margin-right: 0;
+    /*width: 50%;*/
+    /*background-color:blue;*/
+}
+
+.lab>div>label {
+    white-space: pre-line;
+    text-align: center;
+}
+
+.lab>div>lab::before
+{
+    margin-bottom: 50%;
+    background-color: red;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before
+{
+    position: relative;
+    margin-left: 10px;
+}
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)
+{
+    height:100%;
+    margin-left: 10px;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after
+{
+    /*display: none;*/
+    content: " ";
+}
+
+
+
+.ant-row.ant-form-item.lab>div>label::before{
+    margin-bottom: 15%;
+    /*background-color: red;*/
+}
